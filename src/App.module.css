@@ -1,0 +1,24 @@
+/* App.module.css */
+
+.calculator {
+  width: 280px;
+  margin: 40px auto;
+  padding: 12px;
+
+  border-radius: 12px;
+  background-color: #1e1e2f;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Optional wrapper for centering */
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121212;
+}
